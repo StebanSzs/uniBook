@@ -37,7 +37,7 @@ fun ProductCatalogue(
                 text = title,
                 style = MaterialTheme.typography.subtitle1
             )
-            Text(text = "Show all", modifier = modifier.clickable {
+            Text(text = "Ver todo", modifier = modifier.clickable {
 
             })
         }

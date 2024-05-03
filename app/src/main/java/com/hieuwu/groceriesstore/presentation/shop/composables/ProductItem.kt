@@ -107,7 +107,7 @@ private fun ProductItemPreview(modifier: Modifier = Modifier) {
         modifier = modifier,
         product = ProductModel(
             id = "fsdfsdds",
-            name = "Groeceries",
+            name = "Libro",
             price = 2.4,
             image = "",
         ),
