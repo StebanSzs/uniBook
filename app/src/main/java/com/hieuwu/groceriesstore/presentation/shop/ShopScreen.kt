@@ -94,12 +94,12 @@ fun ShopScreen(
                 Carousel(modifier = modifier.padding(4.dp))
                 ProductCatalogue(
                     products = products.value,
-                    title = "Best seller",
+                    title = "Libros gratis",
                     onAddToCartClick = { product ->
                         viewModel.addToCart(product)
                         scope.launch {
                             snackbarHostState.showSnackbar(
-                                "Added ${product.name}"
+                                "Agregado ${product.name}"
                             )
                         }
                     },
@@ -108,12 +108,12 @@ fun ShopScreen(
                 Spacer(modifier = modifier.height(12.dp))
                 ProductCatalogue(
                     products = products.value,
-                    title = "Hot deal",
+                    title = "Libros en venta",
                     onAddToCartClick = { product ->
                         viewModel.addToCart(product)
                         scope.launch {
                             snackbarHostState.showSnackbar(
-                                "Added ${product.name}"
+                                "Agregado ${product.name}"
                             )
                         }
                     },
@@ -122,12 +122,12 @@ fun ShopScreen(
                 Spacer(modifier = modifier.height(12.dp))
                 ProductCatalogue(
                     products = products.value,
-                    title = "Exclusive offer",
+                    title = "Ofertas exclusivas",
                     onAddToCartClick = { product ->
                         viewModel.addToCart(product)
                         scope.launch {
                             snackbarHostState.showSnackbar(
-                                "Added ${product.name}"
+                                "Agregado ${product.name}"
                             )
                         }
                     },
